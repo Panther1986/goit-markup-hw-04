@@ -312,13 +312,28 @@ padding: 32px 0;
     text-align: center;
 }
 
-.third-section-icon{
-display: flex;
-justify-content: center;
+
+
+.third-section-dsr{
+display: inline-block;
+justify-content: space-around;
 align-items: center;
-    gap: 24px;
-    width: 40px;
-    height: 40px;
+gap: 24px;
+border: none;
+width: 40px;
+height: 40px;
+color: #F4F4FD;
+border-radius: 50%;
+background-color: #4D5AE5;
+width: 40px;
+height: 40px;
+}
+.third-section-icon{
+   fill: currentColor;
+width: 16px;
+height: 16px;
+align-items: center;
+margin: 12px;
 }
 .fourth-section{
     padding: 120px 0 120px 0;
