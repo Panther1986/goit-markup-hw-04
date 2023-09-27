@@ -403,8 +403,8 @@ color: #2E2F42;
 }
 
 .footer-info {
+    display: flex;
     background-color: #2e2f42;
-    padding: 100px 0;
 }
 
 .footer-logo {
@@ -423,6 +423,13 @@ color: #2E2F42;
     color: #f4f4fd;
 }
 
+.footer-container{
+    width: 264px;
+ margin-top: 101px;
+ margin-bottom: 100px;
+ margin-left: 156px;
+ margin-right: 120px;
+}
 .footer-text {
     line-height: 1.5;
     color: #F4F4FD;
@@ -431,15 +438,10 @@ color: #2E2F42;
 }
 
 .footer-social{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-align-items: center;
 width: 208px;
 height: 80px;
 flex-shrink: 0;
-margin-left: 0 auto;
+margin-top: 100px;
 }
 
 .footer-social-name{
@@ -451,14 +453,15 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
-text-align: center;
+display: inline;
 }
 
 .footer-social-list{
 border: none;
-gap: 16px;
 width: 208px;
 height: 40px;
+margin-top: 16px;
+padding-right: 16px;
 }
 
 .footer-social-item{
@@ -474,6 +477,14 @@ border-radius: 50%;
 color: #F4F4FD;
 background-color: #4D5AE5;
 
+}
+
+.footer-social-item:hover{
+    background-color: #31D0AA;
+}
+
+.footer-social-item:focus{
+background-color: #31D0AA;
 }
 
 .footer-social-icon{
