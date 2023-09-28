@@ -335,6 +335,17 @@ background-color: #4D5AE5;
 width: 40px;
 height: 40px;
 margin: 10px 10px;
+transition-property: bacground-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.third-section-dsr:hover{
+background-color: #31D0AA;
+}
+
+.third-section-dsr:focus{
+background-color: #31D0AA;
 }
 
 .third-section-icon{
