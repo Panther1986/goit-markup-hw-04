@@ -264,7 +264,7 @@ transform: translateY(50px);
     position: absolute;
     top: -5%;
     right: 30px;
-    transform: translateY(calc(50% + 40px));
+    transform: translateY(calc(-50% + 40px));
    background-image: url(../images/astronaut-1.svg);
 }
 .practice-btn:hover::before,
