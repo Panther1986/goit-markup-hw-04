@@ -278,6 +278,52 @@ transform: translateY(50px);
     
 }
 
+.practice-line{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 150px;
+height: 50px;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.practice-ul{
+
+}
+.practice-line-list{
+padding: 10px 15px;
+}
+
+.practice-link{
+    outline: 1px solid black;
+    width: 120px;
+position: relative;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: currentColor;
+}
+
+.practice-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: red;
+transform: scaleX(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.practice-link:hover::after{
+    display: block;
+    transform: scaleX(1);
+    
+    
+}
+
 
 .visually-hidden {
     position: absolute;
