@@ -241,6 +241,7 @@ overflow: hidden;
 }
 .practice{
     display: flex;
+    margin-bottom: 30px;
 }
 .practice-btn::before,
 .practice-btn::after{
@@ -325,6 +326,32 @@ transform: scaleX(0);
     transform: scaleX(1);
     
     
+}
+.practice-modal{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.backdrop{
+    position: fixed;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 165, 0, 0.5);
+}
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+.modal{
+    min-height: 400px;
+    min-width: 600px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
